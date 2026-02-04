@@ -1,0 +1,68 @@
+# ARIS CALCULATOR - Requirements
+# Version: 1.0.0
+# Date: 2023
+# Auteur: [Votre Nom]
+
+# ================================
+# DÉPENDANCES PRINCIPALES
+# ================================
+
+# Python version requise
+python_version >= 3.6
+
+# ================================
+# DÉPENDANCES STANDARD
+# ================================
+
+# Tkinter est inclus avec Python, pas besoin de l'installer séparément
+# mais on le mentionne pour information
+# tkinter >= 8.6
+
+# ================================
+# DÉPENDANCES OPTIONNELLES
+# ================================
+
+# Pour créer un exécutable
+pyinstaller >= 5.0
+
+# Pour les tests (optionnel)
+pytest >= 7.0
+
+# Pour le formatage du code (optionnel)
+black >= 22.0
+flake8 >= 5.0
+
+# ================================
+# ENVIRONNEMENTS VIRTUELS
+# ================================
+
+# Pour créer un environnement virtuel (recommandé)
+virtualenv >= 20.0
+
+# ================================
+# PLATEFORMES SUPPORTÉES
+# ================================
+
+# Windows
+platform_system == "Windows"
+
+# Linux
+platform_system == "Linux"
+
+# macOS
+platform_system == "Darwin"
+
+# ================================
+# NOTES D'INSTALLATION
+# ================================
+
+# Pour installer toutes les dépendances principales :
+# pip install -r requirements.txt
+
+# Pour installer uniquement les dépendances nécessaires :
+# pip install pyinstaller
+
+# Pour créer un environnement virtuel :
+# python -m venv venv
+# source venv/bin/activate  # Sur Linux/Mac
+# venv\Scripts\activate     # Sur Windows
